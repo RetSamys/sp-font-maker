@@ -395,7 +395,7 @@ writein-metadata = [
   {                     name = "wakenTok",    rotate = true},
   {                     name = "wasoweliTok", rotate = true},
 
-  {name = "tallyTok",                                                                       type = "tally", center = false},
+  {codepoint = 0x199E, name = "tallyTok",                                                   type = "tally", center = false},
   {name = "tallytallyTok",                                                                  type = "tally", center = false},
   {name = "tallytallytallyTok",                                                             type = "tally", center = false},
   {name = "tallytallytallytallyTok",                                                        type = "tally", center = false},
