@@ -505,6 +505,8 @@ writein-metadata = [
   {codepoint = 0xf19b8, name = "waTok"},
   {codepoint = 0xf19b9, name = "wuwojitiTok"},
   {codepoint = 0xf19ba, name = "yupekosiTok"},
+  {codepoint = 0xf198c, name = "sewizerotwoTok"},
+
 
   # Critters, which are rotated
   {                     name = "apiTok",      rotate = true},
