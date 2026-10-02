@@ -447,7 +447,10 @@ def detect_characters(
             for default_glyph_index, default_glyph in enumerate(glyphs_json):
                 if "name" in default_glyph:
                     if default_glyph["name"] == word.split("/")[0] + "Tok":
-                        sorted_characters[default_glyph_index] = sorted_characters[
+                        if has_extra:sorted_characters[default_glyph_index] = sorted_characters[
+                            writein_cell_indices[position]-180
+                        ]
+                        else:sorted_characters[default_glyph_index] = sorted_characters[
                             writein_cell_indices[position]
                         ]
 
